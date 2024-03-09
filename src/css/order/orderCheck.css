@@ -1,0 +1,148 @@
+/* 키오스크 전체 */
+.orderCheck_body{
+    width: 518px;
+    height: 740px;
+    border: 50px solid #333;
+    box-shadow: 0 -10px 5px 3px #333 inset;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 주문 내역 전체 box */
+.orderCheck_box{
+    width: 500px;
+    height: 625px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.orderCheck_box h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* 주문 내역 확인 */
+.orderCheck_infoBox{
+    width: 430px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.orderCheck_info{
+    width: 420px;
+    height: 250px;
+    /* background-color: antiquewhite; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.orderCheck_info li{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.orderCheck_info li:nth-child(4){
+    margin-bottom: 5px;
+}
+
+.orderCheck_info li:nth-child(5){
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+/* 할부 버튼 */
+.installmentBtn_box{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.installmentBtn{
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0 ;
+    border: none;
+    border: 3px solid #929292;
+    border-radius: 10px;
+}
+
+/* 할부 버튼 선택 색상변환 */
+.installmentBtn.selected {
+    background-color: #417bb4 ;
+    border: none;
+    color: white;
+}
+
+/* 결제 선택 */
+.payCard{
+    width: 400px;
+    height: 180px;
+    background-color: #2B4976;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.payCard_font{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.cardIcon{
+    width: 40px;
+    margin-right: 30px;
+}
+
+.creditCard_font{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+/* 뒤로가기 */
+.orderCheck_back{
+    width: 230px;
+    height: 55px;
+    background-color: #924547;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

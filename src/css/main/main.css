@@ -1,0 +1,39 @@
+.mainBox{
+    width:518px;
+    height:850px;
+    background-color:#DDE6ED;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border: 50px solid #333;
+    box-shadow: 0px 0px 5px 3px #333 inset;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px
+};
+
+.subMainLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidImg{
+    width: 505px;
+    height: 650px;
+}
+
+.mainLink{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #123261;
+    font-size: 40px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,145 @@
+/* 전체 */
+.ProductMainBox {
+    width: 518px; 
+    height: 740px;
+    border: 50px solid #333;
+    box-shadow: 0 -10px 5px 3px #333 inset;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+
+/* 핸드폰 이미지 */
+.ProductContainer{
+  width: 500px; 
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ProductContainerMain{
+  width: 210px;
+  height: 290px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.05); /* 그림자 속성 추가 */
+  border-radius: 10px;
+  margin: 10px 10px 0px 10px;
+}
+.ProductContainerMain > h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ProductContainerMain img{
+  max-width: 90%;
+  max-height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ProductProductList{
+  width: 280px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 5px 0px 0px;
+  gap: 10px;
+}
+
+.ProductProductList li{
+  width: 130px;
+  height: 140px;
+  background-color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.05); /* 그림자 속성 추가 */
+  border-radius: 10px; /* 둥근 모서리 효과 추가 */
+  }
+
+.ProductProductList li img { /* 각 이미지 스타일 */
+  max-width: 95%;
+  max-height: 80%;
+}
+
+
+/* 옵션 선택 부분 */
+.ProductOptionBox {
+  width: 450px;
+  height: 310px;
+  border: 8px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ProductOption{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+  width: 15px; 
+  height: 15px;
+  margin-right: 3px;
+  margin-left: 16px;
+}
+
+.ProductOption_price, label{
+  font-size: 20px;
+}
+
+.ProductOption_price{
+  margin-left: 16px;
+}
+
+
+/* 뒤로가기, 구매하기 버튼 */
+.ProductBtnBox{
+  width: 520px;
+  height: auto;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ProductBackBtn,
+.ProductPurchaseBtn{
+  width: 230px;
+  height: 55px;
+  background-color: #924547;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProductPurchaseBtn {
+  background-color: #123261;
+}

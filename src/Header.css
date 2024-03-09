@@ -1,0 +1,39 @@
+/* 키오스크 전체 */
+.kioskBody{
+    width: 518px;
+    height: 100px;
+    border: 50px solid #333;
+    box-shadow: 0 10px 5px 3px #333 inset;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+/* 상단 아이콘 */
+.iconBox{ 
+    width: 485px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.homeIcon{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.logoImage{
+    height: 75px;
+}
+
+.settingIcon{
+    height: 40px;
+    margin-right: 10px;
+}

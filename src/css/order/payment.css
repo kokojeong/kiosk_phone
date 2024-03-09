@@ -1,0 +1,91 @@
+/* 키오스크 전체 */
+.paymentBox{
+    width: 518px;
+    height: 740px;
+    border: 50px solid #333;
+    box-shadow: 0 -10px 5px 3px #333 inset;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* 결제안내 */
+.paymentBox > .cardBox{
+    width: 450px;
+    height: 680px;
+    background-color: #EBE9E6;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentBox > .cardBox > h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* 카드 */
+.paymentBox > .cardBox > .cardSlot {
+    width: 330px;
+    height: 100px;
+    background: linear-gradient(to bottom, #0B0B0B, #5e5d5d, #B4B0B0, #706D6D, #0B0B0B);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentBox > .cardBox > .cardSlot > .insertCard{
+    width: 220px;
+    height: 15px;
+    border: 10px solid #EDD818;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentBox > .cardBox > .cardSlot > .insertCard > .cardImage{
+    width: 330px;
+    height: 370px;
+    transform: rotate(90deg);
+    margin-left: 8px;
+    margin-top: 290px;
+}
+
+
+/* 결제금액 안내 */
+.paymentBox > .cardBox > .payBox{
+    width: 450px;
+    height: 160px;
+    background-color: #2B4976;
+    border-radius: 20px;
+    color: white;
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentBox > .cardBox > .payBox > .totalPayment{
+    font-size: 30px;
+    margin: 25px;
+}
+
+.paymentBox > .cardBox > .payBox > .amounts{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 10px;
+}

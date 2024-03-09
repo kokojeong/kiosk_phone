@@ -1,0 +1,111 @@
+/* <div className='managerLogin_box'> */
+.managerLogin_box{
+    width:518px;
+    height:850px;
+    background-color:#123261;
+    border: 50px solid #333;
+    box-shadow: 0px 0px 5px 3px #333 inset;
+    border-radius: 20px 20px 20px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+/* <h2 className='managerLogin'>관리자 로그인</h2> */
+.managerLogin{
+    color:#fff;
+    font-size:35px;
+    font-weight:bold;
+    text-align: center;
+}
+/* <form onSubmit={checkingLogin} className='loginFrom'> */
+.loginFrom{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto; 
+}
+/* <input type='text' id='Id' className='Id'> */
+.Id{
+    width:400px;
+    height:50px;
+    margin-bottom:10px;
+    border-radius:20px;
+    font-size: 35px;
+}
+/* <input type='text' id='Id' className='password'> */
+.password{
+    width:400px;
+    height:50px;
+    margin-bottom:10px;
+    border-radius:20px;
+    font-size: 35px;
+}
+.Id::placeholder{
+    font-size:35px;
+    padding-left:10px;
+}
+.password::placeholder{
+    font-size:35px;
+    padding-left:10px;
+}
+/* <button className='managerLogin_btn' type='onSubmit'>로그인</button> */
+.managerLogin_btn{
+    width:100px;
+    height:40px;
+    border-radius:50px;
+    margin:0 auto;
+    font-size:20px;
+    font-weight:bold;
+    cursor: pointer;
+    color:#000;
+    background-color:#fff;
+    border:none;
+}
+.loginBtn:hover{
+    background-color: #3876d3;
+    color:#fff;
+    transition:0.2s;
+}
+/* <div className='keyPad'> */
+.keyPad{
+    width: 400px;
+    height:500px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+/* <button className='numberButton'> */
+.LoginNumber_button{
+    margin:1%;
+    width: 120px;
+    height: 100px;
+    background: #eee;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight:bold;
+    cursor: pointer;
+}
+.LoginNumber_button:hover{
+    background-color: #3876d3;
+    color:#fff;
+    transition:0.2s;
+}
+/* <button className='managerDelete_button' onClick={handleNumberDelete}>삭제</button> */
+.managerDelete_button{
+    width: 120px;
+    height: 100px;
+    margin-top:5px;
+    margin-left:5px;
+    background: #eee;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight:bold;
+    cursor: pointer;
+    
+}
+.managerDelete_button:hover {
+    background-color: #3876d3;
+    color:#fff;
+    transition:0.7s;
+}

@@ -1,0 +1,159 @@
+/* 키오스크 전체 */
+.orderCompleteBox{
+    width: 518px;
+    height: 740px;
+    border: 50px solid #333;
+    box-shadow: 0 -10px 5px 3px #333 inset;
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* 주문완료안내 및 영수증 */
+.orderCompleteBox > .guideBox{
+    width: 470px;
+    height: 700px;
+    background-color: #EBE9E6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.orderCompleteBox > .guideBox > h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* 안내문구 */
+.orderCompleteBox > .guideBox > .guide{
+    width: 430px;
+    height: 150px;
+    color: white;
+    background-color: #123261;
+    border-radius: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.orderCompleteBox > .guideBox > .guide > li > .creditCard{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* 영수증 출력되는 부분 */
+.orderCompleteBox > .guideBox > .guide > li > .receipt{
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF7F62;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody{
+    width: 400px;
+    height: 100px;
+    background-color: #000000;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 350px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptBox{
+    width: 350px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(000, 000, 000, 0));
+    margin-top: 20px;
+    margin-left: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* 영수증 */
+.orderCompleteBox > .guideBox > .receiptBody > .phoneEIcon{
+    width: 75px;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 250%;
+    left: 40%;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint{
+    width: 350px;
+    height: 410px;
+    background-color: #FFFEFE;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptTitle{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptLogo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptBar{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptDetails_Product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptDetails_Volume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptDetails_Total{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 40px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .barcodeImage{
+    width: 290px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptDetails_Product, .receiptDetails_Volume, .receiptDetails_Total, .receiptDetails_Total >.receiptDetailsLeft{
+    margin-left: 30px;
+}
+
+.orderCompleteBox > .guideBox > .receiptBody > .receiptPrint > .receiptDetails_Product, .receiptDetails_Volume, .receiptDetails_Total, .receiptDetails_Total > .receiptDetailsRight{
+    margin-right: 30px;
+}

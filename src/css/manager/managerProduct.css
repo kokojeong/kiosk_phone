@@ -1,0 +1,198 @@
+.managerProduct_box{
+  width:518px;
+  height:850px;
+  background:#003366;
+  border: 50px solid #333;
+  box-shadow: 0px 0px 5px 3px #333 inset;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
+
+/* <h1 className='managerProduct_title'>상품관리</h1> */
+.managerProduct_title{
+  text-align:center;
+  width:520px;
+  height:50px;
+  color:#fff;
+  font-weight:bold;
+  font-size:40px;
+}
+
+.managerHome_link{
+  display: block;
+  width: 40px;
+  height:40px;
+  position: absolute;
+  top: 0px;
+  left : 0px;
+  /* border: 1px solid #000; */
+  top: 20px;
+  left: 20px;
+}
+
+/* <img src='/images/homeIcon_white.png' alt='' className='ManagerHome'/> */
+.ManagerHome{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* <div className='managerButton_box'>*/
+.managerButton_box{
+  width:100%;
+  height:50px;
+  background-color:#fff;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  border:4px solid #ddd;
+  box-sizing:border-box;
+}
+
+/* <button className='managerProduct_button'> */
+.managerProduct_button{
+  width:75px;
+  height:40px;
+  border-radius:20px;
+  font-size:20px;
+  font-weight:bold;
+  cursor: pointer;
+  color:#fff;
+  background-color:#6699cc;
+  border:none;
+}
+.managerProduct_button:hover{
+  background-color:black;
+  color:#fff;
+  transition: 0.5s;
+}
+
+
+/* <table className='managerProduct_table'> */
+.managerProduct_table{
+  width:100%;
+  height:600px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+  border-collapse: collapse;
+  
+}
+
+/* <thead className='managerProduct_thead'> */
+.managerProduct_thead{
+  width:100%;
+  height:50px;
+  display: flex;
+  /* margin-top:10px; */
+  align-items: center;
+  background-color:#fff;
+  padding:0;
+  border-left:4px solid #ddd;
+  border-right:4px solid #ddd;
+  box-sizing:border-box;
+}
+
+/*  <tr className='managerProductTr'> */
+.managerProduct_tr{
+  margin:0 auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* <td className='managerProductTh'> */
+.managerProduct_th{
+  width:86px;
+  display:inline-block;
+  padding:0;
+}
+
+/* <tbody className='managerProductTbody'> */
+.managerProduct_tbody{
+  width:100%;
+  /* height:600px; */
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  box-sizing:border-box;
+  background-color:#fff;
+  border:5px solid #ddd;
+  box-sizing:border-box;
+}
+/* 맵함수 안에 tag들 className
+<tr key={idx} className='managerTbody_tr'> */
+.managerTbody_tr{
+  display:inline-block;
+  width:520px;
+  height:30px;
+  padding: 0 10px 0 0;
+  margin:10px 0;
+  box-sizing:border-box;
+}
+/*<td className='managerTbody_productTd'>{item.category}</td> */
+.managerTbody_productTd{
+  color:#333;
+  width:86px;
+  text-align: center;
+  line-height: 30px;
+  font-size:13px;
+  font-weight:bold;
+}
+/* ---------------------------------------------------------------------- */
+
+/* pagination library Style Line */
+.pagination {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin:0;
+  list-style: none;
+  padding: 0;
+}
+ul.pagination li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+/* ul.pagination li:first-child{
+  border-radius: 5px 0 0 5px;
+}
+ul.pagination li:last-child{
+  border-radius: 0 5px 5px 0;
+} */
+ul.pagination li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 26px;
+  font-weight: bold;
+}
+ul.pagination li.active a {
+  color:white;
+}
+ul.pagination li.active {
+  background-color: #337ab7;
+}
+ul.pagination li a:hover,
+ul.pagination li a.active {
+  color:#333;
+}
+.page-selection {
+  width: 48px;
+  height: 30px;
+  color:black;
+}
