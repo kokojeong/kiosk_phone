@@ -3,21 +3,21 @@ import { Route, Routes } from "react-router-dom";
 
 // 페이지 가져오기
 import Header from "./Header";
-import Main from './main/Main';
-import SubMain from './main/SubMain'
-import Ranking from './main/Ranking';
-import MainProduct from './product/MainProduct';
-import Product from './product/Product';
-import OrderCheck from './order/OrderCheck';
-import Payment from './order/Payment';
-import OrderComplete from './order/OrderComplete';
-import ManagerLogin from './manager/ManagerLogin';
-import ManagerProduct from './manager/ManagerProduct';
+import Main from './component/main/Main';
+import SubMain from './component/main/SubMain'
+import Ranking from './component/main/Ranking';
+import MainProduct from './component/product/MainProduct';
+import Product from './component/product/Product';
+import OrderCheck from './component/order/OrderCheck';
+import Payment from './component/order/Payment';
+import OrderComplete from './component/order/OrderComplete';
+import ManagerLogin from './component/manager/ManagerLogin';
+import ManagerProduct from './component/manager/ManagerProduct';
 
-import  '../css/app/App.css';
+import  './css/app/App.css';
 
 
-function Project3() {
+function App() {
 
 
     return (
@@ -40,4 +40,4 @@ function Project3() {
 }
 
 
-export default Project3;
+export default App;

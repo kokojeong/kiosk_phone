@@ -1,0 +1,766 @@
+{
+  "iphone": {
+    "iPhone11": {
+      "title":"iPhone11",
+      "main": "i11_main.gif",
+      "price" : "990,000",
+      "storage":["64GB", "128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i11_black1.gif",
+          "i11_black2.gif",
+          "i11_black3.gif",
+          "i11_black4.gif"
+        ],
+        "white": [
+          "i11_white1.gif",
+          "i11_white2.gif",
+          "i11_white3.gif",
+          "i11_white4.gif"
+        ]
+      }
+    },
+    "iPhone11Pro": {
+      "title":"iPhone11Pro",
+      "main": "i11pro_main.gif",
+      "price":"698,000",
+      "storage":["64GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "white": [
+          "i11pro_silver1.gif",
+          "i11pro_silver2.gif",
+          "i11pro_silver3.gif",
+          "i11pro_silver4.gif"
+        ],
+        "black": [
+          "i11pro_spaceGray1.gif",
+          "i11pro_spaceGray2.gif",
+          "i11pro_spaceGray3.gif",
+          "i11pro_spaceGray4.gif"
+        ]
+      }
+    },
+    "iPhone11ProMax": {
+      "title":"iPhone11ProMax",
+      "main": "i11proMax_main.gif",
+      "price":"1,390,000",
+      "storage":["64GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "white": [
+          "i11proMax_silver1.gif",
+          "i11proMax_silver2.gif",
+          "i11proMax_silver3.gif",
+          "i11proMax_silver4.gif"
+        ],
+        "black": [
+          "i11proMax_spaceGray1.gif",
+          "i11proMax_spaceGray2.gif",
+          "i11proMax_spaceGray3.gif",
+          "i11proMax_spaceGray4.gif"
+        ]
+      }
+    },
+    "iPhone12": {
+      "title":"iPhone12",
+      "main": "i12_main.gif",
+      "price":"1,090,000",
+      "storage":["64GB", "128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+        "colors": {
+          "black": [
+            "i12_black1.gif",
+            "i12_black2.gif",
+            "i12_black3.gif",
+            "i12_black4.gif"
+          ],
+          "white": [
+            "i12_white1.gif",
+            "i12_white2.gif",
+            "i12_white3.gif",
+            "i12_white4.gif"
+          ]
+      }
+    },
+    "iPhone12Mini": {
+      "title":"iPhone12Mini",
+      "main": "i12mini_main.gif",
+      "price":"950,000",
+      "storage":["64GB", "128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i12mini_black1.gif",
+          "i12mini_black2.gif",
+          "i12mini_black3.gif",
+          "i12mini_black4.gif"
+        ],
+        "white": [
+          "i12mini_white1.gif",
+          "i12mini_white2.gif",
+          "i12mini_white3.gif",
+          "i12mini_white4.gif"
+        ]
+      }
+    },
+    "iPhone12Pro": {
+      "title":"iphone12Pro",
+      "main": "i12pro_main.gif",
+      "price":"1,350,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i12pro_graphite1.gif",
+          "i12pro_graphite2.gif",
+          "i12pro_graphite3.gif",
+          "i12pro_graphite4.gif"
+        ],
+        "white": [
+          "i12pro_silver1.gif",
+          "i12pro_silver2.gif",
+          "i12pro_silver3.gif",
+          "i12pro_silver4.gif"
+        ]
+      }
+    },
+    "iPhone12ProMax": {
+      "title":"iPhone12ProMax",
+      "main": "i12proMax_main.gif",
+      "price":"1,490,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i12proMax_graphite1.gif",
+          "i12proMax_graphite2.gif",
+          "i12proMax_graphite3.gif",
+          "i12proMax_graphite4.gif"
+        ],
+        "white": [
+          "i12proMax_silver1.gif",
+          "i12proMax_silver2.gif",
+          "i12proMax_silver3.gif",
+          "i12proMax_silver4.gif"
+        ]
+      }
+    },
+    "iPhone13": {
+      "title":"iPhone13",
+      "main": "i13_pink1.gif",
+      "price":"950,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+        "colors": {
+          "black": [
+            "i13_midnight1e1.gif",
+            "i13_midnight1e2.gif",
+            "i13_midnight1e3.gif",
+            "i13_midnight1e4.gif"
+          ],
+          "white": [
+            "i13_starlight1.gif",
+            "i13_starlight2.gif",
+            "i13_starlight3.gif",
+            "i13_starlight4.gif"
+          ]
+        }
+      },
+    "iPhone13Mini": {
+      "title":"iPhone13Mini",
+      "main": "i13mini_main.gif",
+      "price":"1,000,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i13mini_midnight1.gif",
+          "i13mini_midnight2.gif",
+          "i13mini_midnight3.gif",
+          "i13mini_midnight4.gif"
+        ],
+        "white": [
+          "i13mini_starlight1.gif",
+          "i13mini_starlight2.gif",
+          "i13mini_starlight3.gif",
+          "i13mini_starlight4.gif"
+        ]
+      }
+    },
+    "iPhone13Pro": {
+      "title":"iPhone13Pro",
+      "main": "i13pro_main.gif",
+      "price":"1,500,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white", "midnightGreen"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i13pro_graphite1.gif",
+          "i13pro_graphite2.gif",
+          "i13pro_graphite3.gif",
+          "i13pro_graphite4.gif"
+        ],
+        "white": [
+          "i13pro_silver1.gif",
+          "i13pro_silver2.gif",
+          "i13pro_silver3.gif",
+          "i13pro_silver4.gif"
+        ]
+      }
+    },
+    "iPhone13ProMax": {
+      "title":"iPhone13ProMax",
+      "main": "i13proMax_main.gif",
+      "price":"1,490,000",
+      "storage":["128GB", "256GB","512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i13proMax_graphite1.gif",
+          "i13proMax_graphite2.gif",
+          "i13proMax_graphite3.gif",
+          "i13proMax_graphite4.gif"
+        ],
+        "white": [
+          "i13proMax_silver1.gif",
+          "i13proMax_silver2.gif",
+          "i13proMax_silver3.gif",
+          "i13proMax_silver4.gif"
+        ]
+      }
+    },
+    "iPhone14": {
+      "title":"iPhone14",
+      "main": "i14_main.gif",
+      "price":"1,250,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i14_midnight1.gif",
+          "i14_midnight2.gif",
+          "i14_midnight3.gif",
+          "i14_midnight3.gif"
+        ],
+        "white": [
+          "i14_starlight1.gif",
+          "i14_starlight2.gif",
+          "i14_starlight3.gif",
+          "i14_starlight3.gif"
+        ]
+      }
+    },
+    "iphone14plus":{
+      "title":"iphone14plus",
+      "main":"i14plus_main.gif",
+      "price":"1,250,000", 
+      "storage":["128GB","256GB","512GB"],
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"],
+      "options_price":"10,000",
+      "colors":{
+        "black": [
+          "i14plus_midnight1.gif",
+          "i14plus_midnight2.gif",
+          "i14plus_midnight3.gif",
+          "i14plus_midnight3.gif"
+        ],
+        "white": [
+          "i14plus_white1.gif",
+          "i14plus_white2.gif",
+          "i14plus_white3.gif",
+          "i14plus_white4.gif"
+        ]
+      }
+    },
+    "iPhone14Pro": {
+      "title":"iPhone14Pro",
+      "main": "i14Pro_main.gif",
+      "price":"1,550,000",
+      "storage":["128GB", "256GB", "512GB","1TB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i14Pro_midnight1.gif",
+          "i14Pro_midnight2.gif",
+          "i14Pro_midnight3.gif",
+          "i14Pro_midnight4.gif"
+        ],
+        "white": [
+          "i14Pro_starlight1.gif",
+          "i14Pro_starlight2.gif",
+          "i14Pro_starlight3.gif",
+          "i14Pro_starlight4.gif"
+        ]
+      }
+    },
+    "iPhone14ProMax": {
+      "title":"iPhone14ProMax",
+      "main": "i14ProMax_main.gif",
+      "price":"1,650,000",
+      "storage":["128GB", "256GB", "512GB","1TB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i14ProMax_midnight1.gif",
+          "i14ProMax_midnight2.gif",
+          "i14ProMax_midnight3.gif",
+          "i14ProMax_midnight3.gif"
+        ],
+        "white": [
+          "i14ProMax_starlight1.gif",
+          "i14ProMax_starlight2.gif",
+          "i14ProMax_starlight3.gif",
+          "i14ProMax_starlight3.gif"
+        ]
+      }
+    },
+    "iPhone15": {
+      "title":"iPhone15",
+      "main": "i15_main.gif",
+      "price":"1,350,000",
+      "storage":["128GB", "256GB", "512GB","1TB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i15_black1.gif", 
+          "i15_black2.gif", 
+          "i15_black3.gif",
+          "i15_black4.gif"
+        ],
+        "white": [
+          "i15_pink1.gif", 
+          "i15_pink2.gif", 
+          "i15_pink3.gif",
+          "i15_pink4.gif"
+        ]
+      }
+    },
+    "iPhone15Plus": {
+      "title":"iPhone15Plus",
+      "main": "i15plus_main.gif",
+      "price":"1,250,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i15plus_black1.gif",
+          "i15plus_black2.gif",
+          "i15plus_black3.gif",
+          "i15plus_black4.gif"
+        ],
+        "white": [
+          "i15plus_blue1.gif", 
+          "i15plus_blue2.gif", 
+          "i15plus_blue3.gif",
+          "i15plus_blue3.gif"
+        ]
+      }
+    },
+    "iPhone15Pro": {
+      "title":"iPhone15Pro",
+      "main": "i15pro_main.gif",
+      "price":"1,550,000",
+      "storage":["128GB", "256GB", "512GB","1TB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i15pro_black1.gif",
+          "i15pro_black2.gif",
+          "i15pro_black3.gif",
+          "i15pro_black4.gif"
+        ],
+        "white": [
+          "i15pro_blue1.gif", 
+          "i15pro_blue2.gif",
+          "i15pro_blue3.gif",
+          "i15pro_blue4.gif"
+        ]
+      }
+    },
+    "iPhone15ProMax": {
+      "title":"iPhone15ProMax",
+      "main": "i15proMax_main.gif",
+      "price":"2,200,000",
+      "storage":["256GB", "512GB","1TB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "i15proMax_black1.gif",
+          "i15proMax_black2.gif",
+          "i15proMax_black3.gif",
+          "i15proMax_black3.gif"
+        ],
+        "white": [
+          "i15proMax_blue1.gif",
+          "i15proMax_blue2.gif",
+          "i15proMax_blue3.gif",
+          "i15proMax_blue3.gif"
+        ]
+      }
+    },
+    "iPhoneSE": {
+      "title": "iPhoneSE",
+      "main": "iSE_main.gif",
+      "price":"650,000",
+      "storage":["128GB", "256GB", "512GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "iSE2_black1.gif",
+          "iSE2_black2.gif",
+          "iSE2_black3.gif",
+          "iSE2_black4.gif"
+        ],
+        "white": [
+          "iSE2_white1.gif",
+          "iSE2_white2.gif",
+          "iSE2_white3.gif",
+          "iSE2_white4.gif"
+        ]
+      }
+    }
+  },
+  "galaxy": {
+    "galaxyA24": {
+      "title":"galaxyA24",
+      "main": "a24_main.gif",
+      "price":"348,400",
+      "storage":["128GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "a24_black1.gif",
+          "a24_black2.gif",
+          "a24_black3.gif",
+          "a24_black4.gif"
+        ],
+        "darkRed": [
+          "a24_darkRed1.gif",
+          "a24_darkRed2.gif",
+          "a24_darkRed3.gif",
+          "a24_darkRed4.gif"
+        ]
+      }
+    },
+    "galaxyA34": {
+      "title":"galaxyA34",
+      "main": "a34_main.gif",
+      "price":"439,400",
+      "storage":["128GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "black": [
+          "a34_awesomeGraphite1.gif",
+          "a34_awesomeGraphite2.gif",
+          "a34_awesomeGraphite3.gif",
+          "a34_awesomeGraphite4.gif"
+        ],
+        "white": [
+          "a34_awesomeSilver1.gif",
+          "a34_awesomeSilver2.gif",
+          "a34_awesomeSilver3.gif",
+          "a34_awesomeSilver4.gif"
+        ]
+      }
+    },
+    "galaxyS23": {
+      "title":"galaxyS23",
+      "main": "s23_main.gif",
+      "price":"1,000,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "cream": [
+          "s23_cream1.gif",
+          "s23_cream2.gif",
+          "s23_cream3.gif",
+          "s23_cream4.gif"
+        ],
+        "black": [
+          "s23_black1.gif",
+          "s23_black2.gif",
+          "s23_black3.gif",
+          "s23_black4.gif"
+        ]
+      }
+    },
+  "s23plus": {
+    "title":"s23plus",
+    "main": "s23plus_main.gif",
+    "price":"1,100,000",
+    "storage":["128GB", "256GB"], 
+    "options":["케이스", "액정필름", "고속충전기"], 
+    "color":["black", "white"],
+    "options_price":"10,000", 
+    "colors": {
+      "cream": [
+        "s23plus_cream1.gif",
+        "s23plus_cream2.gif",
+        "s23plus_cream3.gif",
+        "s23plus_cream4.gif"
+      ],
+      "black": [
+        "s23plus_graphite1.gif",
+        "s23plus_graphite2.gif",
+        "s23plus_graphite3.gif",
+        "s23plus_graphite4.gif"
+      ]
+    }
+  },
+    "s23ultra": {
+      "title":"s23ultra",
+      "main": "s23ultra_main.gif",
+      "price":"1,350,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "cream": [
+          "s23ultra_cream1.gif",
+          "s23ultra_cream2.gif",
+          "s23ultra_cream3.gif",
+          "s23ultra_cream4.gif"
+        ],
+        "phantomBlack": [
+          "s23ultra_phantomBlack1.gif",
+          "s23ultra_phantomBlack2.gif",
+          "s23ultra_phantomBlack3.gif",
+          "s23ultra_phantomBlack4.gif"
+        ]
+      }
+    },
+    "zFlip4": {
+      "title":"zFlip4",
+      "main": "zFlip4_main.gif",
+      "price":"1,000,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000", 
+      "colors": {
+        "blue": [
+          "zFlip4_blue1.gif",
+          "zFlip4_blue2.gif",
+          "zFlip4_blue3.gif",
+          "zFlip4_blue4.gif"
+        ],
+        "black": [
+          "zFlip4_graphite1.gif",
+          "zFlip4_graphite2.gif",
+          "zFlip4_graphite3.gif",
+          "zFlip4_graphite4.gif"
+        ]
+      }
+    },
+    "zFlip5": {
+      "title":"zFlip5",
+      "main": "zFlip5_main.gif",
+      "price":"2,000,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "cream": [
+          "zFlip5_cream1.gif",
+          "zFlip5_cream2.gif",
+          "zFlip5_cream3.gif",
+          "zFlip5_cream4.gif"
+        ],
+        "black": [
+          "zFlip5_graphite2.gif",
+          "zFlip5_graphite3.gif",
+          "zFlip5_graphite4.gif",
+          "zFlip5_graphite5.gif"
+        ]
+      }
+    },
+    "zFold4": {
+      "title":"zFold4",
+      "main": "zFold4_main.gif",
+      "price":"1,500,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "zFold4_phantomBlack1.gif",
+          "zFold4_phantomBlack2.gif",
+          "zFold4_phantomBlack3.gif",
+          "zFold4_phantomBlack4.gif"
+        ],
+        "beige": [
+          "zFold4_beige1.gif",
+          "zFold4_beige2.gif",
+          "zFold4_beige3.gif",
+          "zFold4_beige4.gif"
+        ]
+      }
+    },
+    "zFold5": {
+      "title":"zFold5",
+      "main": "zFold5_main.gif",
+      "price":"2,000,000",
+      "storage":["128GB", "256GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "cream": [
+          "zFold5_cream1.gif",
+          "zFold5_cream2.gif",
+          "zFold5_cream3.gif",
+          "zFold5_cream4.gif"
+        ],
+        "black": [
+          "zFold5_phantomBlack1.gif",
+          "zFold5_phantomBlack2.gif",
+          "zFold5_phantomBlack3.gif",
+          "zFold5_phantomBlack4.gif"
+        ]
+      }
+    }
+  },
+  "retro": {
+    "anycall": {
+      "title":"anycall",
+      "main": "anycall_main.gif",
+      "price":"1,000,000",
+      "storage":["16GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "anycall_black1.gif",
+          "anycall_black2.gif",
+          "anycall_black3.gif",
+          "anycall_black4.gif"
+        ]
+      }
+    },
+    "folder1": {
+      "title":"folder1",
+      "main": "folder_main.gif",
+      "price":"110,000",
+      "storage":["32GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "folder_black1.gif",
+          "folder_black2.gif",
+          "folder_black3.gif",
+          "folder_black4.gif"
+        ]
+    }
+  },
+    "folder2": {
+      "title":"folder2",
+      "main": "folder2_main.gif",
+      "price":"150,000",
+      "storage":["16GB","32GB"], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "folder2_black1.gif",
+          "folder2_black2.gif",
+          "folder2_black3.gif",
+          "folder2_black4.gif"
+        ]
+      }
+    },
+    "lollipop": {
+      "title":"lollipop",
+      "main": "lollipop_main.gif",
+      "price":"110,000",
+      "storage":[ "8GB" ], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "lollipop_black1.gif", 
+          "lollipop_black2.gif",
+          "lollipop_black3.gif",
+          "lollipop_black4.gif"
+        ]
+    }
+  },
+    "marshmallow": {
+      "title":"marshmallow",
+      "main": "marshmallow_main.gif",
+      "price":"120,000",
+      "storage":[ "8GB" ], 
+      "color":["black", "white"],
+      "options":["케이스", "액정필름", "고속충전기"], 
+      "options_price":"10,000",
+      "colors": {
+        "black": [
+          "marshmallow_black1.gif",
+          "marshmallow_black2.gif",
+          "marshmallow_black3.gif",
+          "marshmallow_black4.gif"
+        ],
+        "white": [
+          "marshmallow_white1.gif",
+          "marshmallow_white2.gif",
+          "marshmallow_white3.gif",
+          "marshmallow_white4.gif"
+        ]
+      }
+    }
+  }
+}
